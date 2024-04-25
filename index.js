@@ -29,7 +29,7 @@ const express = require('express');
 require('dotenv').config();
 const ytdl = require('ytdl-core');
 const { DisTube } = require('distube');
-const keep_alive = require('./keep_alive.js')
+const keepAlive = require('./keep_alive.js'); 
 
 const client = new Client({
   intents: Object.keys(GatewayIntentBits).map((a) => {

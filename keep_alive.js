@@ -1,6 +1,13 @@
-var http = require('http');
+const http = require('http');
 
-http.createServer(function (req, res) {
-  res.write("l'm alive");
-  res.end();
-}).listen(8080);
+function startKeepAlive() {
+  http.createServer(function (req, res) {
+    res.write("I'm alive");
+    res.end();
+  }).listen(8080);
+
+  console.log("Keep-alive server started on port 8080");
+}
+
+// Export the startKeepAlive function if needed by other parts of your application
+module.exports.startKeepAlive = startKeepAlive;
