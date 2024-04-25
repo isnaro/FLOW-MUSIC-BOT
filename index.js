@@ -21,6 +21,7 @@
 
 
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
+const keep_alive = require('./keep_alive.js')
 const { EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
