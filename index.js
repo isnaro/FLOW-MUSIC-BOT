@@ -21,7 +21,6 @@
 
 
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
-const keep_alive = require('./keep_alive.js')
 const { EmbedBuilder } = require('discord.js');
 const fs = require('fs');
 const path = require('path');
@@ -30,6 +29,7 @@ const express = require('express');
 require('dotenv').config();
 const ytdl = require('ytdl-core');
 const { DisTube } = require('distube');
+const keep_alive = require('./keep_alive.js')
 
 const client = new Client({
   intents: Object.keys(GatewayIntentBits).map((a) => {
