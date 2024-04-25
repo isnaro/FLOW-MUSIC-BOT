@@ -4,7 +4,7 @@ module.exports = {
     name: 'owner',
     description: 'Bot owner info',
     execute(message, args) {
-        const youtubeLink = 'https://discord.gg/FUEHs7RCqz';
+        const youtubeLink = 'https://discord.gg/a32cQucwaC';
         const InstagramLink = 'https://discord.gg/FUEHs7RCqz';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
