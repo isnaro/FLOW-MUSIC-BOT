@@ -9,7 +9,8 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n ana nb w hada mkan();
+            .setDescription(`__**About me**__:\n ana nb w hada mkan();`) // Add semicolon here
+
 
 
         message.reply({ embeds: [embed] });
