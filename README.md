@@ -1,4 +1,4 @@
-#  MULTI-MUSIC BOT BY GlaceYT 
+#  MULTI-MUSIC BOT BY NB ツ 
 ▶️ simple and powerful multi music bot.
 ▶️ consisting of various commands.
 ▶️ Still in development you may face minor bugs|
@@ -45,4 +45,4 @@ The basic or default prefix is "?". You can change the prefix by modifying the `
 
 # 📚 Copyright 
 
-All code in this project is authored by GlaceYT. Please do not use this code for any public usage, such as creating YouTube videos, Git repositories, etc., without my explicit permission.
+All code in this project is authored by NB ツ. Please do not use this code for any public usage, such as creating YouTube videos, Git repositories, etc., without my explicit permission.
