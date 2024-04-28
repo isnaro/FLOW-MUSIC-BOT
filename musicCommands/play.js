@@ -295,6 +295,7 @@ module.exports = {
       return message.reply('**⚠️ You need to be in a voice channel!**');
     }
 
+
     const searchQuery = args.join(' ');
     if (!searchQuery) {
       return message.reply('**▶️ Please provide a search query!**');
