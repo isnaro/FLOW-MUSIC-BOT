@@ -287,9 +287,9 @@ function resumePlayback() {
 
 
 module.exports = {
-  name: 'p','play',
+  name: 'p',
   description: 'Play music from YouTube',
-  aliases: 'play', // Add the alias here
+  aliases: 'play',
   execute: async (message, args) => {
     const voiceChannel = message.member.voice.channel;
     if (!voiceChannel) {
